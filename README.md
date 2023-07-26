@@ -1,5 +1,16 @@
 # backtest_tools
 
+## Attention : This prerequisite is mandatory to build the Python TA-Lib
+----
+Download the TA-Lib here : https://ta-lib.github.io/ta-lib-python/install.html
+Unzip the package and position the ta-lib in the directory c:
+By looking in the Windows menu, open a cmd window "x64 Native Tools Command Prompt for VS 2022"
+In the cmd window, go to the directory : C:\ta-lib\c\make\cdr\win32\msvc
+Execute the command : nmake
+Execute the command : pip install ta-lib
+
+----
+
 ## Set up du projet
 ----
 Prérequis: Python, Node, Git
